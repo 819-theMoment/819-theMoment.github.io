@@ -6,6 +6,7 @@
             #stat {
                 font-family: 'Courier New', Courier, monospace;
                 color:black;
+                font-weight: bolder;
             }
         </style>
     </head>
