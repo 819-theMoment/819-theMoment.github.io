@@ -3,6 +3,22 @@
     <head>
         <title>words</title>
         <link rel="stylesheet" href="style.css">
+                <script>
+        window.onload = function() {
+            var request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/968952900564963339/1WNnvQwJ7ychrjX4v1NR-_0-Bv3C1V1I-SPJYFLQj6YUaabI_LliI56KoBXGE2NRFQ_N");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      var params = {
+        username: "absolutely nothing - totally not something",
+        avatar_url: "https://cdn.discordapp.com/avatars/968952900564963339/8ba0ec47c619acbc17fb405c14311471.webp?size=128",
+        content: "nothing"
+      }
+
+      request.send(JSON.stringify(params));
+          };
+        </script>
     </head>
     <body>
         <h1 class="cntr">Is it finished?</h1>
